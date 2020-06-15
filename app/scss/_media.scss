@@ -1,0 +1,133 @@
+@media (max-width: 1440px) {
+    .logo {
+        img {
+            width: 100px;
+        }
+    }
+    .header__title {
+        font-size: 130px;
+        line-height: 108px;
+        top: 20px;
+        left: 60px;
+    }
+    .menu {
+        padding-top: 10px;
+    }
+    .header__search {
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+    .header__date {
+        font-size: 60px;
+        span {
+            font-size: 14px;
+            padding-top: 0;
+            margin-bottom: 5px;
+        }
+    }
+    .header_arrows {
+        left: 130px;
+    }
+}
+@media (max-width: 1366px) {
+    .header__aside {
+        display: flex;
+        height: 108px;
+        padding-right: 25px;
+        background-color: rgba(#fff, 0.1);
+        border-right: none;
+    }
+    .menu {
+        padding-top: 0;
+    }
+    .menu__list {
+        li {
+            display: inline-block;
+        }
+        a {
+            padding: 15px;
+        }
+    }
+    .header__search {
+        padding: 33px 15px 15px;
+    }
+    .header__date {
+        padding: 15px;
+    }
+    .header__location {
+        margin-top: 42px;
+    }
+    .slider-item__info-title {
+        font-size: 65px;
+    }
+    .header_arrows {
+        left: 20px;
+        bottom: 20px;
+    }
+}
+@media (max-width: 1340px) {
+    .header__map {
+        svg {
+            width: 500px;
+            height: 250px;
+        }
+    }
+    .slider-arrows {
+        right: 20px;
+        top: 20px;
+    }
+    .slider-arrows__left {
+        right: 60px;
+    }
+}
+@media (max-width: 1040px) {
+    .header_arrows {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .header__search {
+        padding: 40px 15px 15px;
+    }
+    .slider-item__info {
+        right: 20px;
+        bottom: 17px;
+    }
+    .slider-item__info-text {
+        margin-bottom: 15px;
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .headline-left {
+        line-height: 18px;
+        font-size: 16px;
+        padding-left: 65px;
+    }
+    .slider-item__info-subtext {
+        margin-bottom: 5px;
+    }
+    .headline-left::before {
+        width: 50px;
+    }
+    .slider-item__info-title {
+        margin-bottom: 20px;
+        line-height: 55px;
+        font-size: 50px;
+    }
+    .slider-dots {
+        bottom: 5px;
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+    }
+    .dots-box{
+        width: 125px;
+    }
+    .dots-box__namber{
+        font-size: 18px;
+    }
+    .dots-box__name{
+        line-height: 18px;
+    }
+}
